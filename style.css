@@ -1,0 +1,50 @@
+body {
+    background-image: url("botwpattern.jpeg");
+    background-size: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+   
+
+@font-face {
+    font-family: 'Hylia';
+    src: url('HyliaSerifBeta-Regular.otf');
+}
+
+h1 {
+    color: rgb(75, 42, 10);
+    font-family: 'Hylia';
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px rgb(46, 26, 6);
+}
+
+.centerPage {
+    background-color: blanchedalmond;
+    background-image: url("parchmentpattern.jpeg");
+    background-size: 20%;
+    margin: 100px 100px 100px 100px;
+    color: rgb(75, 42, 10);
+    border: 4px solid red;
+    border-radius: 3rem;
+}
+
+.centerPageMedia {
+    padding: 3rem;
+}
+
+.recipescards {
+    background-image: url("sheikah\ print.png");
+    background-size: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+.recipecardtitle {
+    border-radius: 1rem;
+    border: 3px solid #87744a;
+    background-color: #b99f65;
+    color: #473d28;
+    font-weight: bold;
+}
